@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Caio Costa | Online Coaching</title>
+<meta name="description" content="Personalized online coaching for strength, hypertrophy, performance and body composition by Caio Costa.">
+<style>
+:root{--bg:#080808;--panel:#111;--line:#262626;--text:#f5f5f2;--muted:#a8a8a2;--accent:#e59a32;--max:1180px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.5}a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),92%);margin:auto}.nav{position:sticky;top:0;z-index:20;background:rgba(8,8,8,.86);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}.navin{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:900;letter-spacing:.08em}.brand span{color:var(--accent)}.links{display:flex;gap:28px;color:#ccc;font-size:13px;text-transform:uppercase;letter-spacing:.08em}.links a:hover{color:var(--accent)}.btn{display:inline-flex;align-items:center;justify-content:center;padding:15px 22px;border:1px solid var(--accent);background:var(--accent);color:#090909;font-weight:900;font-size:12px;letter-spacing:.09em;text-transform:uppercase;transition:.2s}.btn:hover{transform:translateY(-2px);filter:brightness(1.08)}.btn.alt{background:transparent;color:var(--text)}.hero{min-height:760px;display:flex;align-items:center;position:relative;overflow:hidden;background:radial-gradient(circle at 75% 45%,rgba(229,154,50,.16),transparent 32%),linear-gradient(135deg,#090909,#101010 55%,#080808)}.hero:after{content:"";position:absolute;width:520px;height:520px;right:-170px;top:110px;border:1px solid rgba(229,154,50,.15);border-radius:50%;box-shadow:0 0 0 90px rgba(229,154,50,.025),0 0 0 180px rgba(229,154,50,.018)}.eyebrow{color:var(--accent);font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase}.hero h1{font-size:clamp(52px,8vw,104px);line-height:.92;margin:18px 0 25px;max-width:850px;letter-spacing:-.05em;text-transform:uppercase}.hero h1 em{color:var(--accent);font-style:normal}.hero p{max-width:650px;color:#c4c4be;font-size:18px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}.tags{display:flex;gap:10px;flex-wrap:wrap;margin-top:35px}.tag{border:1px solid var(--line);padding:9px 12px;color:#bbb;font-size:11px;text-transform:uppercase;letter-spacing:.09em}.section{padding:110px 0}.section.dark{background:#0d0d0d}.kicker{font-size:12px;color:var(--accent);font-weight:800;letter-spacing:.17em;text-transform:uppercase}.title{font-size:clamp(38px,5vw,64px);line-height:.98;letter-spacing:-.04em;text-transform:uppercase;margin:14px 0 18px}.intro{max-width:680px;color:var(--muted);font-size:17px}.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:45px}.card{background:linear-gradient(145deg,#131313,#0e0e0e);border:1px solid var(--line);padding:28px;min-height:220px}.num{color:var(--accent);font-size:12px;font-weight:900}.card h3{font-size:18px;text-transform:uppercase;margin:35px 0 12px}.card p{color:var(--muted);font-size:14px}.split{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.bigquote{font-size:clamp(34px,4.5vw,62px);line-height:1.02;text-transform:uppercase;font-weight:900;letter-spacing:-.04em}.bigquote span{color:var(--accent)}.list{margin:32px 0 0;padding:0;list-style:none}.list li{border-top:1px solid var(--line);padding:18px 0;text-transform:uppercase;font-size:13px;letter-spacing:.08em}.list li:before{content:"↗";color:var(--accent);margin-right:12px}.process{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:45px}.step{border-top:2px solid var(--accent);padding:20px 4px}.step b{font-size:11px;color:var(--accent);letter-spacing:.1em}.step h3{text-transform:uppercase;font-size:16px}.step p{color:var(--muted);font-size:13px}.audience{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:40px}.aud{padding:32px 24px;border:1px solid var(--line);font-weight:900;text-transform:uppercase;min-height:130px;display:flex;align-items:end;font-size:19px}.coach{background:linear-gradient(100deg,#101010,#0b0b0b);border:1px solid var(--line);padding:55px}.coach h3{font-size:36px;margin:8px 0}.coach p{color:var(--muted);max-width:650px}.cta{text-align:center;padding:120px 0;background:radial-gradient(circle at center,rgba(229,154,50,.12),transparent 42%),#0d0d0d}.cta .title{max-width:850px;margin:12px auto 22px}.cta p{max-width:650px;margin:0 auto;color:var(--muted)}footer{border-top:1px solid var(--line);padding:28px 0;color:#777;font-size:12px;display:flex;justify-content:space-between;gap:20px}.mobilebtn{display:none}
+@media(max-width:900px){.links{display:none}.mobilebtn{display:inline-flex}.hero{min-height:680px}.grid4,.audience{grid-template-columns:1fr 1fr}.process{grid-template-columns:1fr 1fr}.split{grid-template-columns:1fr;gap:40px}.section{padding:80px 0}}
+@media(max-width:560px){.navin{height:68px}.brand{font-size:13px}.hero h1{font-size:53px}.hero p{font-size:16px}.grid4,.audience,.process{grid-template-columns:1fr}.card{min-height:auto}.coach{padding:32px 24px}.coach h3{font-size:28px}footer{flex-direction:column}.btn{width:100%}}
+
+.application{background:#0b0b0b;border-top:1px solid var(--line);padding:110px 0}
+.application-head{max-width:760px;margin-bottom:45px}
+.application-head p{color:var(--muted);font-size:16px}
+.form-shell{max-width:860px;margin:0 auto;background:#101010;border:1px solid var(--line);padding:clamp(24px,5vw,52px)}
+.form-progress{height:3px;background:#252525;margin-bottom:35px;overflow:hidden}
+.form-progress span{display:block;height:100%;width:14.28%;background:var(--accent);transition:.25s}
+.form-step{display:none}
+.form-step.active{display:block}
+.form-step h3{font-size:25px;text-transform:uppercase;margin:0 0 8px;letter-spacing:-.02em}
+.form-step .step-note{color:var(--muted);font-size:14px;margin:0 0 28px}
+.field{margin:0 0 23px}
+.field label{display:block;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;margin-bottom:9px}
+.required{color:var(--accent)}
+.field input,.field textarea,.field select{width:100%;background:#0b0b0b;color:var(--text);border:1px solid #303030;padding:14px 15px;font:inherit;outline:none}
+.field input:focus,.field textarea:focus,.field select:focus{border-color:var(--accent)}
+.field textarea{min-height:125px;resize:vertical}
+.option-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.option{position:relative}
+.option input{position:absolute;opacity:0;pointer-events:none}
+.option label{display:flex;align-items:center;min-height:48px;padding:12px 14px;border:1px solid #303030;background:#0b0b0b;color:#ccc;cursor:pointer;font-size:12px;letter-spacing:.04em;text-transform:none;margin:0;font-weight:600}
+.option input:checked + label{border-color:var(--accent);color:var(--text);box-shadow:inset 3px 0 0 var(--accent)}
+.scale{display:grid;grid-template-columns:repeat(10,1fr);gap:5px}
+.scale label{min-height:42px;display:flex;align-items:center;justify-content:center;border:1px solid #303030;background:#0b0b0b;cursor:pointer;margin:0;font-weight:800}
+.scale input{position:absolute;opacity:0}
+.scale label:has(input:checked){border-color:var(--accent);background:rgba(229,154,50,.12);color:var(--accent)}
+.form-nav{display:flex;justify-content:space-between;gap:12px;margin-top:32px;padding-top:25px;border-top:1px solid var(--line)}
+.form-nav .btn{min-width:140px}
+.conditional{display:none}
+.confirmation{display:none;text-align:center;padding:35px 0 10px}
+.confirmation.show{display:block}
+.confirmation .check{font-size:42px;color:var(--accent);font-weight:900}
+.confirmation h3{font-size:30px;text-transform:uppercase;margin:12px 0}
+.confirmation p{color:var(--muted);max-width:620px;margin:8px auto}
+.form-fineprint{color:#777;font-size:11px;text-align:center;margin-top:20px}
+@media(max-width:560px){
+  .application{padding:80px 0}
+  .option-grid{grid-template-columns:1fr}
+  .scale{gap:3px}
+  .scale label{font-size:11px}
+  .form-nav{flex-direction:column-reverse}
+  .form-nav .btn{width:100%}
+}
+</style>
+</head>
+<body>
+<header class="nav"><div class="wrap navin"><a class="brand" href="#top">CAIO <span>COSTA</span></a><nav class="links"><a href="#method">Method</a><a href="#coaching">Coaching</a><a href="#process">Process</a><a href="#coach">Coach</a></nav><a class="btn mobilebtn" href="#application">Apply</a></div></header>
+<main id="top">
+<section class="hero"><div class="wrap"><div class="eyebrow">International Online Coaching</div><h1>Train with <em>purpose.</em><br>Perform with confidence.</h1><p>Personalized online coaching built around your body, your goals and your routine — with structured training, progressive programming and continuous support.</p><div class="actions"><a class="btn" href="#application">Apply for coaching →</a><a class="btn alt" href="#method">Explore the method</a></div><div class="tags"><span class="tag">Strength</span><span class="tag">Hypertrophy</span><span class="tag">Performance</span><span class="tag">Body Composition</span></div></div></section>
+<section class="section" id="method"><div class="wrap"><div class="kicker">The Method</div><h2 class="title">Your plan.<br>Your progression.</h2><p class="intro">Generic workouts don't account for your experience, equipment, schedule or progression. Your coaching should.</p><div class="grid4"><article class="card"><div class="num">01</div><h3>Personalized</h3><p>Built around your goals, training history, experience, available equipment and real-life routine.</p></article><article class="card"><div class="num">02</div><h3>Progressive</h3><p>Exercise selection, volume, intensity and progression are structured to create a clear path forward.</p></article><article class="card"><div class="num">03</div><h3>Monitored</h3><p>Your performance and feedback help guide adjustments so your program evolves as you do.</p></article><article class="card"><div class="num">04</div><h3>Supported</h3><p>Get ongoing guidance through the coaching app and direct communication throughout your journey.</p></article></div></div></section>
+<section class="section dark" id="coaching"><div class="wrap split"><div><div class="kicker">What You Get</div><div class="bigquote">More than a <span>workout.</span></div><p class="intro">This is coaching: a structured system designed to make your training purposeful, measurable and adaptable.</p></div><ul class="list"><li>Personalized Training Program</li><li>Coaching App</li><li>Progressive Programming</li><li>Regular Program Adjustments</li><li>Direct Coach Support</li></ul></div></section>
+<section class="section" id="process"><div class="wrap"><div class="kicker">The Process</div><h2 class="title">Simple process.<br>Serious training.</h2><div class="process"><div class="step"><b>01</b><h3>Assess</h3><p>Understand your goals, experience, routine and equipment.</p></div><div class="step"><b>02</b><h3>Build</h3><p>Create your personalized training strategy.</p></div><div class="step"><b>03</b><h3>Train</h3><p>Follow your program through the coaching app.</p></div><div class="step"><b>04</b><h3>Track</h3><p>Monitor performance, consistency and progression.</p></div><div class="step"><b>05</b><h3>Adjust</h3><p>Evolve the strategy as your performance changes.</p></div></div></div></section>
+<section class="section dark"><div class="wrap"><div class="kicker">Who It's For</div><h2 class="title">Built for real people<br>with real goals.</h2><div class="audience"><div class="aud">Fat Loss</div><div class="aud">Muscle Growth</div><div class="aud">Strength & Performance</div><div class="aud">Any Training Level</div></div></div></section>
+<section class="section" id="coach"><div class="wrap"><div class="coach"><div class="kicker">The Coach</div><h3>CAIO COSTA</h3><strong>Personal Trainer | Strength & Performance Coach</strong><p class="bigquote" style="font-size:30px;margin-top:30px">“Training should have a <span>strategy.</span>”</p><p>I’m a Bachelor of Physical Education and personal trainer focused on personalized training, hypertrophy, body composition and performance.</p><p>My role is not simply to give you a workout. It is to guide your training, monitor your progression and help you build a stronger, more confident approach to fitness.</p></div></div></section>
+<section class="cta" id="apply"><div class="wrap"><div class="kicker">Ready?</div><h2 class="title">Stop guessing.<br>Start training with a plan.</h2><p>Your goals deserve more than a generic workout. Apply for online coaching and let's build a strategy designed specifically for you.</p><div class="actions" style="justify-content:center"><a class="btn" href="#application">Apply for online coaching →</a></div></div></section>
+
+<section class="application" id="application">
+  <div class="wrap">
+    <div class="application-head">
+      <div class="kicker">Online Coaching Application</div>
+      <h2 class="title">CAIO COSTA COACH</h2>
+      <p>Welcome to CAIO COSTA COACH.<br><br>
+      I provide personalized online coaching focused on Female Performance, Hypertrophy and Fat Loss.<br><br>
+      This application helps me understand your goals, current situation and what you're looking for in a coach.<br>
+      Please answer the questions honestly and with as much detail as possible.<br><br>
+      After reviewing your application, I will contact you with the next steps.<br>
+      Estimated completion time: 3–5 minutes.<br><br>
+      Let's get started.</p>
+    </div>
+
+    <div class="form-shell">
+      <div class="form-progress"><span id="formProgress"></span></div>
+      <form id="coachingApplication" novalidate>
+
+        <div class="form-step active" data-step="1">
+          <h3>01 — About You</h3>
+          <p class="step-note">A few basics so I know who I'm speaking with.</p>
+          <div class="field"><label>Full Name <span class="required">*</span></label><input name="fullName" required></div>
+          <div class="field"><label>Email Address <span class="required">*</span></label><input type="email" name="email" required></div>
+          <div class="field"><label>WhatsApp / Preferred Contact <span class="required">*</span></label><input name="contact" placeholder="Include country code" required></div>
+          <div class="field"><label>Country <span class="required">*</span></label>
+            <select name="country" required><option value="">Select your country</option>
+              <option>United States</option><option>Canada</option><option>United Kingdom</option><option>Australia</option><option>Ireland</option><option>New Zealand</option><option>Germany</option><option>France</option><option>Spain</option><option>Portugal</option><option>Italy</option><option>Netherlands</option><option>Switzerland</option><option>Other</option>
+            </select>
+          </div>
+          <div class="field"><label>Age <span class="required">*</span></label><input type="number" name="age" min="18" required></div>
+        </div>
+
+        <div class="form-step" data-step="2">
+          <h3>02 — Your Goals</h3>
+          <p class="step-note">What are you trying to achieve?</p>
+          <div class="field"><label>Main Goal <span class="required">*</span></label>
+            <div class="option-grid">
+              <div class="option"><input type="radio" name="mainGoal" value="Fat Loss" id="g1" required><label for="g1">Fat Loss</label></div>
+              <div class="option"><input type="radio" name="mainGoal" value="Muscle Gain" id="g2"><label for="g2">Muscle Gain</label></div>
+              <div class="option"><input type="radio" name="mainGoal" value="Hypertrophy" id="g3"><label for="g3">Hypertrophy</label></div>
+              <div class="option"><input type="radio" name="mainGoal" value="Body Recomposition" id="g4"><label for="g4">Body Recomposition</label></div>
+              <div class="option"><input type="radio" name="mainGoal" value="Strength" id="g5"><label for="g5">Strength</label></div>
+              <div class="option"><input type="radio" name="mainGoal" value="Improve Fitness & Conditioning" id="g6"><label for="g6">Fitness & Conditioning</label></div>
+              <div class="option"><input type="radio" name="mainGoal" value="Other" id="g7"><label for="g7">Other</label></div>
+            </div>
+          </div>
+          <div class="field"><label>What would you most like to improve?</label>
+            <div class="option-grid">
+              <div class="option"><input type="checkbox" name="improve" value="Glutes" id="i1"><label for="i1">Glutes</label></div>
+              <div class="option"><input type="checkbox" name="improve" value="Legs" id="i2"><label for="i2">Legs</label></div>
+              <div class="option"><input type="checkbox" name="improve" value="Upper Body" id="i3"><label for="i3">Upper Body</label></div>
+              <div class="option"><input type="checkbox" name="improve" value="Strength" id="i4"><label for="i4">Strength</label></div>
+              <div class="option"><input type="checkbox" name="improve" value="Body Composition" id="i5"><label for="i5">Body Composition</label></div>
+              <div class="option"><input type="checkbox" name="improve" value="Conditioning" id="i6"><label for="i6">Conditioning</label></div>
+              <div class="option"><input type="checkbox" name="improve" value="Overall Fitness" id="i7"><label for="i7">Overall Fitness</label></div>
+              <div class="option"><input type="checkbox" name="improve" value="Confidence" id="i8"><label for="i8">Confidence</label></div>
+              <div class="option"><input type="checkbox" name="improve" value="Other" id="i9"><label for="i9">Other</label></div>
+            </div>
+          </div>
+          <div class="field"><label>What is your biggest challenge right now? <span class="required">*</span></label><textarea name="biggestChallenge" required></textarea></div>
+          <div class="field"><label>What would you like to achieve in the next 3–6 months? <span class="required">*</span></label><textarea name="threeToSixMonths" required></textarea></div>
+        </div>
+
+        <div class="form-step" data-step="3">
+          <h3>03 — Training</h3>
+          <p class="step-note">Tell me about your current training routine.</p>
+          <div class="field"><label>Training Experience <span class="required">*</span></label>
+            <select name="experience" required><option value="">Select</option><option>Complete beginner</option><option>Less than 3 months</option><option>3–6 months</option><option>6–12 months</option><option>1–2 years</option><option>2–5 years</option><option>More than 5 years</option></select>
+          </div>
+          <div class="field"><label>How many days per week can you train? <span class="required">*</span></label>
+            <select name="days" required><option value="">Select</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select>
+          </div>
+          <div class="field"><label>Training Location <span class="required">*</span></label>
+            <select name="location" required><option value="">Select</option><option>Commercial gym</option><option>Private gym</option><option>Home gym</option><option>Hotel gym</option><option>Outdoors</option><option>Other</option></select>
+          </div>
+          <div class="field"><label>Typical Workout Duration <span class="required">*</span></label>
+            <select name="duration" required><option value="">Select</option><option>Less than 30 min</option><option>30–45 min</option><option>45–60 min</option><option>60–75 min</option><option>75+ min</option></select>
+          </div>
+        </div>
+
+        <div class="form-step" data-step="4">
+          <h3>04 — Previous Coaching</h3>
+          <p class="step-note">Your past experience helps me understand what you need.</p>
+          <div class="field"><label>Have you worked with a personal trainer or online coach before? <span class="required">*</span></label>
+            <div class="option-grid">
+              <div class="option"><input type="radio" name="previousCoaching" value="Yes" id="pc1" required><label for="pc1">Yes</label></div>
+              <div class="option"><input type="radio" name="previousCoaching" value="No" id="pc2"><label for="pc2">No</label></div>
+            </div>
+          </div>
+          <div id="previousYes" class="conditional">
+            <div class="field"><label>What did you like about your previous coaching?</label><textarea name="likedPrevious"></textarea></div>
+            <div class="field"><label>What would you like to be different this time? <span class="required">*</span></label><textarea name="differentThisTime"></textarea></div>
+          </div>
+        </div>
+
+        <div class="form-step" data-step="5">
+          <h3>05 — Expectations</h3>
+          <p class="step-note">What does good coaching look like to you?</p>
+          <div class="field"><label>What are you looking for in a coach?</label>
+            <div class="option-grid">
+              <div class="option"><input type="checkbox" name="lookingFor" value="Personalized program" id="l1"><label for="l1">Personalized program</label></div>
+              <div class="option"><input type="checkbox" name="lookingFor" value="Accountability" id="l2"><label for="l2">Accountability</label></div>
+              <div class="option"><input type="checkbox" name="lookingFor" value="Weekly check-ins" id="l3"><label for="l3">Weekly check-ins</label></div>
+              <div class="option"><input type="checkbox" name="lookingFor" value="Exercise technique feedback" id="l4"><label for="l4">Exercise technique feedback</label></div>
+              <div class="option"><input type="checkbox" name="lookingFor" value="Progress tracking" id="l5"><label for="l5">Progress tracking</label></div>
+              <div class="option"><input type="checkbox" name="lookingFor" value="Training progression" id="l6"><label for="l6">Training progression</label></div>
+              <div class="option"><input type="checkbox" name="lookingFor" value="Fat-loss guidance" id="l7"><label for="l7">Fat-loss guidance</label></div>
+              <div class="option"><input type="checkbox" name="lookingFor" value="Hypertrophy programming" id="l8"><label for="l8">Hypertrophy programming</label></div>
+              <div class="option"><input type="checkbox" name="lookingFor" value="Strength development" id="l9"><label for="l9">Strength development</label></div>
+              <div class="option"><input type="checkbox" name="lookingFor" value="Direct communication" id="l10"><label for="l10">Direct communication</label></div>
+            </div>
+          </div>
+          <div class="field"><label>How much accountability do you want? <span class="required">*</span></label>
+            <div class="option-grid">
+              <div class="option"><input type="radio" name="accountability" value="Low" id="a1" required><label for="a1">Low</label></div>
+              <div class="option"><input type="radio" name="accountability" value="Moderate" id="a2"><label for="a2">Moderate</label></div>
+              <div class="option"><input type="radio" name="accountability" value="High" id="a3"><label for="a3">High</label></div>
+              <div class="option"><input type="radio" name="accountability" value="Very high" id="a4"><label for="a4">Very high</label></div>
+            </div>
+          </div>
+          <div class="field"><label>What would success look like for you? <span class="required">*</span></label><textarea name="success" required></textarea></div>
+        </div>
+
+        <div class="form-step" data-step="6">
+          <h3>06 — Commitment</h3>
+          <p class="step-note">A realistic commitment makes the coaching process work.</p>
+          <div class="field"><label>How ready are you to commit to your training? <span class="required">*</span></label>
+            <div class="scale">
+              <label><input type="radio" name="commitment" value="1" required>1</label><label><input type="radio" name="commitment" value="2">2</label><label><input type="radio" name="commitment" value="3">3</label><label><input type="radio" name="commitment" value="4">4</label><label><input type="radio" name="commitment" value="5">5</label><label><input type="radio" name="commitment" value="6">6</label><label><input type="radio" name="commitment" value="7">7</label><label><input type="radio" name="commitment" value="8">8</label><label><input type="radio" name="commitment" value="9">9</label><label><input type="radio" name="commitment" value="10">10</label>
+            </div>
+            <div style="display:flex;justify-content:space-between;color:#777;font-size:11px;margin-top:7px"><span>Not sure I'm ready</span><span>Fully committed</span></div>
+          </div>
+          <div class="field"><label>Are you ready to invest in online coaching? <span class="required">*</span></label>
+            <div class="option-grid">
+              <div class="option"><input type="radio" name="investment" value="Yes, ready" id="r1" required><label for="r1">Yes, I'm ready</label></div>
+              <div class="option"><input type="radio" name="investment" value="Interested to learn more" id="r2"><label for="r2">Interested to learn more</label></div>
+              <div class="option"><input type="radio" name="investment" value="Just exploring" id="r3"><label for="r3">Just exploring</label></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-step" data-step="7">
+          <h3>07 — Final Step</h3>
+          <p class="step-note">Almost there.</p>
+          <div class="field"><label>Why is now the right time for you to start? <span class="required">*</span></label><textarea name="whyNow" required></textarea></div>
+          <div class="field"><label>Anything else you'd like me to know?</label><textarea name="anythingElse"></textarea></div>
+          <div class="field"><label>How did you find CAIO COSTA COACH? <span class="required">*</span></label>
+            <select name="source" required><option value="">Select</option><option>Instagram</option><option>TikTok</option><option>Google</option><option>YouTube</option><option>Friend / Referral</option><option>Other</option></select>
+          </div>
+          <div class="field"><label>Best way to contact you <span class="required">*</span></label>
+            <div class="option-grid">
+              <div class="option"><input type="radio" name="bestContact" value="Email" id="bc1" required><label for="bc1">Email</label></div>
+              <div class="option"><input type="radio" name="bestContact" value="WhatsApp" id="bc2"><label for="bc2">WhatsApp</label></div>
+              <div class="option"><input type="radio" name="bestContact" value="Instagram DM" id="bc3"><label for="bc3">Instagram DM</label></div>
+            </div>
+          </div>
+          <div class="field"><label>Agreement <span class="required">*</span></label>
+            <div class="option"><input type="checkbox" name="agreement" id="agreement" required><label for="agreement">I confirm that the information I provided is accurate and understand that submitting this application does not guarantee acceptance into the coaching program.</label></div>
+          </div>
+        </div>
+
+        <div class="form-nav">
+          <button type="button" class="btn alt" id="prevBtn">← Back</button>
+          <button type="button" class="btn" id="nextBtn">Continue →</button>
+        </div>
+      </form>
+
+      <div class="confirmation" id="confirmation">
+        <div class="check">✓</div>
+        <h3>Application Received</h3>
+        <p>Thank you for applying for CAIO COSTA COACH.</p>
+        <p>I've received your application and will review your information personally.</p>
+        <p>If your goals and needs are a good fit for the coaching program, I'll contact you with the next steps.</p>
+        <p><strong>Talk soon,<br>CAIO COSTA<br>ONLINE PERSONAL TRAINER</strong><br>Female Performance | Hypertrophy | Fat Loss</p>
+        <div class="actions" style="justify-content:center;margin-top:25px">
+          <a class="btn" href="https://wa.me/5521996777516?text=Hi%20Caio%21%20I%E2%80%99ve%20just%20submitted%20my%20online%20coaching%20application.">Continue on WhatsApp →</a>
+          <a class="btn alt" href="https://www.instagram.com/Caiocostacoach/" target="_blank" rel="noopener">Instagram ↗</a>
+        </div>
+      </div>
+      <div class="form-fineprint">Your application is used to understand your goals and determine whether the coaching program is a good fit. No payment is requested on this form.</div>
+    </div>
+  </div>
+</section>
+</main><footer class="wrap"><span>© 2026 CAIO COSTA COACHING</span><span>International Online Coaching · Strength · Performance</span></footer>
+<div class="social-conversion" style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:24px 0 8px"><a href="https://www.instagram.com/Caiocostacoach/" target="_blank" rel="noopener" class="btn">INSTAGRAM · @Caiocostacoach ↗</a><a href="https://wa.me/5521996777516?text=Hi%20Caio%21%20I%E2%80%99m%20interested%20in%20your%20online%20coaching.%20I%E2%80%99d%20like%20to%20know%20more%20about%20how%20it%20works." target="_blank" rel="noopener" class="btn">WHATSAPP · CHAT WITH ME ↗</a></div>
+<script>
+(function(){
+  const form=document.getElementById('coachingApplication');
+  if(!form)return;
+  const steps=[...document.querySelectorAll('.form-step')];
+  const next=document.getElementById('nextBtn');
+  const prev=document.getElementById('prevBtn');
+  const progress=document.getElementById('formProgress');
+  const confirmation=document.getElementById('confirmation');
+  let current=0;
+
+  function showStep(i){
+    steps.forEach((s,n)=>s.classList.toggle('active',n===i));
+    progress.style.width=((i+1)/steps.length*100)+'%';
+    prev.style.display=i===0?'none':'inline-flex';
+    next.textContent=i===steps.length-1?'Submit application →':'Continue →';
+    document.getElementById('application').scrollIntoView({behavior:'smooth',block:'start'});
+  }
+
+  function conditional(){
+    const yes=document.querySelector('input[name="previousCoaching"][value="Yes"]');
+    const box=document.getElementById('previousYes');
+    const required=box.querySelector('textarea[name="differentThisTime"]');
+    const active=yes && yes.checked;
+    box.style.display=active?'block':'none';
+    required.required=active;
+    if(!active) box.querySelectorAll('textarea').forEach(x=>x.value='');
+  }
+
+  function validStep(){
+    const fields=[...steps[current].querySelectorAll('input,select,textarea')].filter(x=>x.offsetParent!==null);
+    for(const field of fields){
+      if(!field.checkValidity()){
+        field.reportValidity();
+        return false;
+      }
+    }
+    return true;
+  }
+
+  document.querySelectorAll('input[name="previousCoaching"]').forEach(x=>x.addEventListener('change',conditional));
+  next.addEventListener('click',function(){
+    if(!validStep())return;
+    if(current<steps.length-1){current++;showStep(current);}
+    else{
+      // This is a front-end application page. No external submission service is configured here.
+      form.style.display='none';
+      document.querySelector('.form-progress').style.display='none';
+      document.querySelector('.form-fineprint').style.display='none';
+      confirmation.classList.add('show');
+      document.getElementById('application').scrollIntoView({behavior:'smooth',block:'start'});
+    }
+  });
+  prev.addEventListener('click',function(){if(current>0){current--;showStep(current);}});
+  conditional();
+  showStep(0);
+})();
+</script>
+</body></html>
